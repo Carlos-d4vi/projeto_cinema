@@ -1,0 +1,23 @@
+
+.title-icon{
+    display: flex;
+    margin-top: 2em;
+    
+}
+
+.title-icon svg, .title-icon p{
+    
+    color: blue;
+    font-size: 2em;
+}
+
+.infos{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+}
+
+#isStoreOpen a{
+    text-decoration: none;
+    color: red;
+}
