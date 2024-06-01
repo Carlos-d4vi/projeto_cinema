@@ -4,10 +4,35 @@ header{
 
 .title-icon{
     display: flex;
-    margin-top: 2em;
 }
 
 .title-icon svg, .title-icon p{
     color: green;
     font-size: 2em;
+}
+
+.seatsContainer{
+    background-color: #282c30;
+    padding: 2em;
+}
+
+.seatsRow{
+    gap: 2em;
+}
+
+.seatsRow li{
+    list-style: none;
+}
+
+.seatGrid button{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+}
+
+.roomInfos{
+    background-color: grey;
+    color: white;
 }
