@@ -21,3 +21,13 @@
     text-decoration: none;
     color: red;
 }
+
+.btn-group{
+    background-color: grey;
+    padding: 2em;
+    
+}
+
+.nextMovies i{
+    color: green;
+}
