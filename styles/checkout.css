@@ -1,0 +1,13 @@
+header{
+    background-color: #282c30;
+}
+
+.title-icon{
+    display: flex;
+    margin-top: 2em;
+}
+
+.title-icon svg, .title-icon p{
+    color: green;
+    font-size: 2em;
+}

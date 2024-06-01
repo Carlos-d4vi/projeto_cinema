@@ -6,7 +6,7 @@
 }
 
 .title-icon svg, .title-icon p{
-    color: blue;
+    color: green;
     font-size: 2em;
 }
 
@@ -26,7 +26,7 @@
 
 #isStoreOpen a{
     text-decoration: none;
-    color: red;
+    color: green;
 }
 
 .btn-group{
@@ -44,9 +44,14 @@
     color: white;
 }
 
+.movieTitle{
+    font-weight: bold;
+}
 
 .moviePublicInfo{
-    border-bottom: 1px grey solid;
+    /* border-bottom: 1px grey solid; */
+    color: gray;
+    font-weight: bold;
 }
 
 .nextSession{
@@ -68,4 +73,15 @@
 
 .movieImage{
     max-width: 200px;
+}
+
+.trailerBtn{
+    margin-top: 1em;
+    color: white;
+    border: 1px solid green;
+    width: 200px;
+}
+
+.trailerBtn i{
+    color: green;
 }
