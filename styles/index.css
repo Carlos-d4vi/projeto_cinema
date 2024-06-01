@@ -6,15 +6,22 @@
 }
 
 .title-icon svg, .title-icon p{
-    
     color: blue;
     font-size: 2em;
 }
 
-.infos{
-    display: flex;
-    background-color: grey;
-    justify-content: center;
+.weekBG{
+    background-color: #282c30;
+    border-radius: 10px;
+}
+
+.weekBtn{
+    color: white;
+}
+
+.weekBtn:hover{
+    color: green;
+    transition: 0.7s;
 }
 
 #isStoreOpen a{
@@ -30,4 +37,26 @@
 
 .nextMovies i{
     color: green;
+}
+
+.moviesBG{
+    background-color: #212528;
+    color: white;
+}
+
+
+.moviePublicInfo{
+    border-bottom: 1px grey solid;
+}
+
+.buyButton{
+    border: 1px green solid;
+    color: white;
+}
+
+.buyButton:hover{
+    border: 1px green solid;
+    color: white;
+    opacity: calc(0.6);
+    transition: 0.3s;
 }
